@@ -1,0 +1,22 @@
+{
+  "name": "ipchanger",
+  "version": "1.0.0",
+  "description": "A CLI tool that rotates public IP using Tor and displays the current address",
+  "main": "ipchanger.js",
+  "bin": {
+    "ipchanger": "./ipchanger.js"
+  },
+  "scripts": {
+    "start": "node ipchanger.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.0",
+    "commander": "^10.0.0",
+    "figlet": "^1.5.2",
+    "socks-proxy-agent": "^7.0.0"
+  }
+}
