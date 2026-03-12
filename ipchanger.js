@@ -49,7 +49,6 @@ credit is unethical and violates open-source principles.
 
 const { banner,showHelp } = require("./includes/banner");
 const { start,stopTorService  } = require("./includes/utils");
-
 const chalk = require('chalk');
 const args = process.argv.slice(2);
 
@@ -91,4 +90,5 @@ if (index !== -1 && args[index + 1]) {
     start(sec);
 } else {
     showHelp();
+    process.exit();
 }

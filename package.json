@@ -1,16 +1,69 @@
 {
   "name": "ipchanger",
   "version": "1.0.0",
-  "description": "A CLI tool that rotates public IP using Tor and displays the current address",
+  "description": "Tor-based IP changer CLI tool that rotates your public IP address automatically using the Tor network and displays it in a clean terminal table.",
+  "keywords": [
+  "ip changer",
+  "tor ip changer",
+  "ip rotation",
+  "tor proxy",
+  "tor cli",
+  "tor network",
+  "anonymous browsing",
+  "anonymity tool",
+  "privacy tool",
+  "ip rotator",
+  "proxy cli",
+  "socks5 proxy",
+  "nodejs cli",
+  "cli tool",
+  "cybersecurity",
+  "cybersecurity tools",
+  "ethical hacking",
+  "ethical hacking tools",
+  "security testing",
+  "penetration testing",
+  "red team",
+  "red team tools",
+  "osint",
+  "network security",
+  "privacy protection",
+  "anonymous network",
+  "tor anonymity",
+  "security research",
+  "security toolkit"
+],
+    "files": [
+    "ipchanger.js",
+    "includes",
+    "README.md",
+    "LICENSE"
+  ],
   "main": "ipchanger.js",
   "bin": {
-    "ipchanger": "./ipchanger.js"
+    "ipchanger": "./ipchanger.js",
+    "ip-changer": "./ipchanger.js",
+    "IPChanger": "./ipchanger.js",
+    "IpChanger": "./ipchanger.js",
+    "IPCHANGER": "./ipchanger.js"
   },
   "scripts": {
     "start": "node ipchanger.js"
   },
-  "author": "",
+  "author": {
+    "name": "Karthikeyan V (karthithehacker)",
+    "email": "contact@karthithehacker.com",
+    "url": "https://karthithehacker.com"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/Cappricio-Securities/ipchanger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cappricio-Securities/ipchanger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cappricio-Securities/ipchanger/issues"
+  },
   "dependencies": {
     "axios": "^1.13.6",
     "chalk": "^4.1.2",

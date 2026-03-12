@@ -47,7 +47,6 @@ credit is unethical and violates open-source principles.
 ✅ Respect developers, respect open-source, and give proper credit.
 */
 
-
 const chalk = require("chalk");
 const Table = require("cli-table3");
 
