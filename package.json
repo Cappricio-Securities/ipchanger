@@ -1,5 +1,5 @@
 {
-  "name": "ipchanger",
+  "name": "@karthithehacker/ipchanger",
   "version": "1.0.0",
   "description": "Tor-based IP changer CLI tool that rotates your public IP address automatically using the Tor network and displays it in a clean terminal table.",
   "keywords": [

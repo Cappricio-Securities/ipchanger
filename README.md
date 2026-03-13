@@ -69,7 +69,7 @@ Download Tor:
 Then install the CLI globally:
 
 ```bash
-npm install -g ipchanger
+npm install -g @karthithehacker/ipchanger
 ```
 
 ---
